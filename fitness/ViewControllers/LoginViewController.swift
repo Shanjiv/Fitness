@@ -8,6 +8,15 @@
 
 import UIKit
 
+
+//testing github
+
+
+
+
+
+
+
 class LoginViewController: UIViewController {
 
     @IBOutlet var contentScroll: UIScrollView!
@@ -35,15 +44,15 @@ class LoginViewController: UIViewController {
         
         contentScroll.setContentOffset(CGPointMake(0, 0), animated: true);
     }
-    
-    func textFieldShouldReturn (textField: UITextField!) -> Bool{
-        if ((textField == txtUsername)){
-            txtPassword.becomeFirstResponder();
-        } else if (textField == txtPassword){
-            textField.resignFirstResponder()
-        }
-        return true
-    }
+//    
+//    func textFieldShouldReturn (textField: UITextField!) -> Bool{
+//        if ((textField == txtUsername)){
+//            txtPassword.becomeFirstResponder();
+//        } else if (textField == txtPassword){
+//            textField.resignFirstResponder()
+//        }
+//        return true
+//    }
     
     /*
     // MARK: - Navigation
